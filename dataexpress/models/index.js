@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize')
-const sequelize = new Sequelize("test","uche","rooney2009",{
-  host:'localhost',
+require("dotenv").config()
+const sequelize = new Sequelize("i4gfv7p2omzlcm5j","fn2s07ruvy0bbq41","kca7d3h1f55iv6vm",{
+  host:'r98du2bxwqkq3shg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
   dialect:'mysql',
   pool:{
     max:5,
