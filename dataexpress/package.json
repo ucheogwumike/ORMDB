@@ -17,5 +17,8 @@
     "nodemon": "^2.0.20",
     "pug": "2.0.0-beta11",
     "sequelize": "^6.24.0"
+  },
+  "engine":{
+    "node":"v16.14.2"
   }
 }
